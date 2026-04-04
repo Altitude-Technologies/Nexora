@@ -14,6 +14,7 @@ import SoftwareDevPage from './pages/SoftwareDevPage'
 import UiUxPage from './pages/UiUxPage'
 import DigitalMarketingPage from './pages/DigitalMarketingPage'
 import PricingPage from './pages/PricingPage'
+import CareersPage from './pages/CareersPage'
 import FloatingContact from './components/FloatingContact'
 
 // Scroll to top on every route change
@@ -42,6 +43,7 @@ function Layout() {
           <Route path="/services/ui-ux"              element={<UiUxPage />}        />
           <Route path="/services/digital-marketing" element={<DigitalMarketingPage />} />
           <Route path="/pricing"                    element={<PricingPage />}          />
+          <Route path="/careers"                    element={<CareersPage />}          />
         </Routes>
       </main>
       <Footer />

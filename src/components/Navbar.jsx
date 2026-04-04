@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: 'About',           to: '/about'          },
   { label: 'AI & Automation', to: '/ai-automation'  },
   { label: 'Pricing',         to: '/pricing'        },
+  { label: 'Careers',         to: '/careers'        },
   { label: 'Our Work',        to: '/work'           },
   { label: 'Contact',         to: '/contact'        },
 ]
