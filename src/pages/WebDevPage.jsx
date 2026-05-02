@@ -201,7 +201,7 @@ export default function WebDevPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Nexora, we don't just build websites — we create powerful digital experiences
+              At Dextriva, we don't just build websites — we create powerful digital experiences
               that help businesses grow, convert, and scale. Whether you're a startup, small business, or enterprise,
               our web solutions are designed to deliver:
             </p>
@@ -325,7 +325,7 @@ export default function WebDevPage() {
           <div className="text-center mb-14 fade-up">
             <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
             <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">
-              Why Choose Nexora?
+              Why Choose Dextriva?
             </h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just build websites. We build growth engines.</p>
           </div>

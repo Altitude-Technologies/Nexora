@@ -46,7 +46,7 @@ export default function PrivacyModal({ onClose }) {
         <div className="overflow-y-auto px-8 py-6 space-y-6 text-sm text-navy/70 leading-relaxed">
 
           <p>
-            Welcome to Nexora. Your privacy is important to us. This Privacy Policy explains
+            Welcome to Dextriva. Your privacy is important to us. This Privacy Policy explains
             how we collect, use, and protect your information when you visit our website.
           </p>
 
@@ -117,7 +117,7 @@ export default function PrivacyModal({ onClose }) {
           <Section title="9. Contact Us">
             <p>If you have any questions, contact us:</p>
             <div className="mt-2 space-y-1">
-              <p className="font-semibold text-navy">Nexora</p>
+              <p className="font-semibold text-navy">Dextriva</p>
               <p>📧 Email: <a href="mailto:your@email.com" className="text-brand hover:underline">your@email.com</a></p>
               <p>📞 Phone: [your phone number]</p>
               <p>📍 Address: [your address]</p>

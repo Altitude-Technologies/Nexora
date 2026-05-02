@@ -37,7 +37,7 @@ export default function Navbar() {
 
         {/* ── Logo ── */}
         <Link to="/" className="flex items-center">
-          <img src={nexoraLogo} alt="Nexora" className="h-10 w-auto rounded" />
+          <img src={nexoraLogo} alt="Dextriva" className="h-10 w-auto rounded" />
         </Link>
 
         {/* ── Desktop Links ── */}

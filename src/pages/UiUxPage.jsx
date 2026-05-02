@@ -196,7 +196,7 @@ export default function UiUxPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Nexora, we combine aesthetics with psychology to create interfaces
+              At Dextriva, we combine aesthetics with psychology to create interfaces
               users love. From startups to enterprises, our designs are built to deliver:
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -310,7 +310,7 @@ export default function UiUxPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14 fade-up">
             <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
-            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Nexora?</h2>
+            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Dextriva?</h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just make things look good. We make them work beautifully.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">

@@ -136,7 +136,7 @@ export default function CareersPage() {
             </div>
             <h1 className="font-display font-black text-5xl sm:text-6xl text-navy tracking-tight mt-2 mb-6 leading-[1.1]">
               Build the Future with<br />
-              <span className="text-gradient">Nexora</span>
+              <span className="text-gradient">Dextriva</span>
             </h1>
             <p className="text-navy/60 text-xl leading-relaxed mb-10 max-w-2xl">
               Join a passionate team building next-gen digital products for businesses worldwide.
@@ -182,7 +182,7 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Nexora, we're not just building products — we're building careers.
+              At Dextriva, we're not just building products — we're building careers.
               Our culture is built on four core values:
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -280,7 +280,7 @@ export default function CareersPage() {
           <div className="text-center mb-14 fade-up">
             <span className="section-label justify-center">Why Join Us</span>
             <h2 className="font-display font-black text-4xl sm:text-5xl text-navy tracking-tight mt-4">
-              Life at Nexora
+              Life at Dextriva
             </h2>
             <p className="text-navy/50 mt-4 max-w-md mx-auto">We take care of our team so they can do their best work.</p>
           </div>

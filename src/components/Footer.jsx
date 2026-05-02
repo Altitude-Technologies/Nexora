@@ -49,7 +49,7 @@ export default function Footer() {
           {/* ── Brand ── */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-5">
-              <img src={nexoraLogo} alt="Nexora" className="h-10 w-auto rounded" />
+              <img src={nexoraLogo} alt="Dextriva" className="h-10 w-auto rounded" />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-6">
               Building the next generation of digital products — powered by AI, designed for scale,
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* ── Bottom bar ── */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/25 text-xs">
-            © {new Date().getFullYear()} Nexora. All rights reserved.
+            © {new Date().getFullYear()} Dextriva. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <button onClick={() => setShowPrivacy(true)} className="text-white/25 text-xs hover:text-white/55 transition-colors">Privacy Policy</button>

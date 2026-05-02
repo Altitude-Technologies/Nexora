@@ -43,7 +43,7 @@ export default function AboutPage() {
               <span className="text-gradient">Your Digital Future</span>
             </h1>
             <p className="text-navy/60 text-xl leading-relaxed">
-              Nexora is a modern technology company focused on delivering innovative
+              Dextriva is a modern technology company focused on delivering innovative
               digital solutions using AI, automation, and cutting-edge development frameworks.
               We don&apos;t just build products — we create growth ecosystems.
             </p>

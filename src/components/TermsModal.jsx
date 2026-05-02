@@ -45,7 +45,7 @@ export default function TermsModal({ onClose }) {
         <div className="overflow-y-auto px-8 py-6 space-y-6 text-sm text-navy/70 leading-relaxed">
 
           <p>
-            Welcome to Nexora. By accessing our website or using our services,
+            Welcome to Dextriva. By accessing our website or using our services,
             you agree to the following terms.
           </p>
 
@@ -57,7 +57,7 @@ export default function TermsModal({ onClose }) {
           </Section>
 
           <Section title="2. Services">
-            <p>Nexora provides:</p>
+            <p>Dextriva provides:</p>
             <List items={[
               'Website Development',
               'Mobile App Development',
@@ -86,7 +86,7 @@ export default function TermsModal({ onClose }) {
 
           <Section title="5. Intellectual Property">
             <List items={[
-              'All content, designs, and code created by Nexora remain our property until full payment is completed',
+              'All content, designs, and code created by Dextriva remain our property until full payment is completed',
               'After full payment, ownership may be transferred as agreed',
             ]} />
           </Section>
@@ -99,7 +99,7 @@ export default function TermsModal({ onClose }) {
           </Section>
 
           <Section title="7. Limitation of Liability">
-            <p>Nexora is not liable for:</p>
+            <p>Dextriva is not liable for:</p>
             <List items={['Business losses', 'Data loss', 'Third-party service failures']} />
           </Section>
 
@@ -126,7 +126,7 @@ export default function TermsModal({ onClose }) {
 
           <Section title="12. Contact Information">
             <div className="space-y-1">
-              <p className="font-semibold text-navy">Nexora</p>
+              <p className="font-semibold text-navy">Dextriva</p>
               <p>📧 Email: <a href="mailto:your@email.com" className="text-brand hover:underline">your@email.com</a></p>
               <p>📞 Phone: [your phone number]</p>
               <p>📍 Address: [your address]</p>

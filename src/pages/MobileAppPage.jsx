@@ -188,7 +188,7 @@ export default function MobileAppPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Nexora, we create innovative mobile applications that transform ideas into
+              At Dextriva, we create innovative mobile applications that transform ideas into
               powerful digital products. Whether you need a business app, startup MVP, or enterprise solution,
               our apps are built to deliver:
             </p>
@@ -307,7 +307,7 @@ export default function MobileAppPage() {
           <div className="text-center mb-14 fade-up">
             <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
             <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">
-              Why Choose Nexora?
+              Why Choose Dextriva?
             </h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just build apps. We build mobile growth engines.</p>
           </div>

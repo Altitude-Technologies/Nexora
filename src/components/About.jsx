@@ -32,7 +32,7 @@ export default function About() {
               <span className="text-gradient">Growth Ecosystems</span>
             </h2>
             <p className="text-navy/60 text-lg leading-relaxed mb-5">
-              Nexora is a modern technology company focused on delivering innovative
+              Dextriva is a modern technology company focused on delivering innovative
               digital solutions using AI, automation, and cutting-edge development frameworks.
             </p>
             <p className="text-navy/55 leading-relaxed mb-8">
