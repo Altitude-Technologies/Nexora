@@ -67,15 +67,15 @@ const PACKAGES = [
   {
     id: 'premium',
     badge: 'Premium',
-    badgeColor: '#E61E2A',
-    badgeBg: 'rgba(254,226,226,0.6)',
-    badgeBorder: 'rgba(252,165,165,0.4)',
+    badgeColor: '#1E7FE0',
+    badgeBg: 'rgba(207,250,254,0.6)',
+    badgeBorder: 'rgba(103,232,249,0.4)',
     icon: Star,
-    iconBg: 'rgba(252,165,165,0.35)',
-    iconColor: '#be123c',
-    pastel: 'rgba(254,226,226,0.30)',
-    border: 'rgba(252,165,165,0.40)',
-    accent: '#E61E2A',
+    iconBg: 'rgba(103,232,249,0.35)',
+    iconColor: '#0e7490',
+    pastel: 'rgba(207,250,254,0.30)',
+    border: 'rgba(103,232,249,0.40)',
+    accent: '#1E7FE0',
     best: true,
     bestFor: 'Enterprises & High-End Brands',
     price: '₹75,000',
@@ -166,7 +166,7 @@ const WHY = [
 ]
 
 const PAYMENT = [
-  { pct: '50%', label: 'Advance to Start Project',    color: '#E61E2A'  },
+  { pct: '50%', label: 'Advance to Start Project',    color: '#1E7FE0'  },
   { pct: '30%', label: 'After Design Approval',        color: '#1d4ed8'  },
   { pct: '20%', label: 'Before Final Delivery',        color: '#15803d'  },
 ]
@@ -185,21 +185,21 @@ export default function PricingPage() {
         ref={headerRef}
         className="pt-32 pb-20 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 80% 60% at 85% 40%, rgba(230,30,42,0.06) 0%, transparent 65%),
+          background: `radial-gradient(ellipse 80% 60% at 85% 40%, rgba(30,127,224,0.06) 0%, transparent 65%),
                        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(13,18,48,0.04) 0%, transparent 60%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
       >
         <div className="absolute inset-0 grid-pattern opacity-40 pointer-events-none" />
         <div className="absolute right-0 top-20 w-[520px] h-[520px] rounded-full pointer-events-none opacity-[0.06]"
-          style={{ border: '2px solid #E61E2A', transform: 'translate(35%,-20%)' }} />
+          style={{ border: '2px solid #1E7FE0', transform: 'translate(35%,-20%)' }} />
         <div className="absolute right-0 top-20 w-[360px] h-[360px] rounded-full pointer-events-none opacity-[0.04]"
           style={{ border: '2px solid #0D1230', transform: 'translate(40%,-10%)' }} />
 
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
           <div className="max-w-3xl mx-auto fade-up">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-5 text-xs font-semibold tracking-wide"
-              style={{ background: 'rgba(230,30,42,0.08)', color: '#E61E2A', border: '1px solid rgba(230,30,42,0.15)' }}>
+              style={{ background: 'rgba(30,127,224,0.08)', color: '#1E7FE0', border: '1px solid rgba(30,127,224,0.15)' }}>
               <span className="w-1.5 h-1.5 rounded-full animate-pulse bg-brand" />
               Transparent Pricing
             </div>
@@ -213,7 +213,7 @@ export default function PricingPage() {
             <Link
               to="/contact"
               className="btn-shine inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl text-white text-base hover:-translate-y-px transition-transform duration-200"
-              style={{ boxShadow: '0 4px 20px rgba(230,30,42,0.4)' }}
+              style={{ boxShadow: '0 4px 20px rgba(30,127,224,0.4)' }}
             >
               Get a Free Estimate <ArrowRight className="w-4 h-4" />
             </Link>
@@ -368,7 +368,7 @@ export default function PricingPage() {
             ))}
           </div>
           <div className="mt-8 rounded-2xl p-5 fade-up text-center"
-            style={{ background: 'rgba(230,30,42,0.04)', border: '1px solid rgba(230,30,42,0.12)' }}>
+            style={{ background: 'rgba(30,127,224,0.04)', border: '1px solid rgba(30,127,224,0.12)' }}>
             <p className="text-navy/60 text-sm leading-relaxed">
               Free domain & hosting applies for <strong className="text-navy">1 year only</strong> — renewal charges applicable from the 2nd year.
               Pricing may vary based on custom requirements, integrations, and complexity.
@@ -381,8 +381,8 @@ export default function PricingPage() {
       <section className="py-20" ref={whyRef} style={{ background: 'linear-gradient(135deg, #0D1230 0%, #1a2050 100%)' }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12 fade-up">
-            <span className="section-label justify-center" style={{ color: 'rgba(230,30,42,0.9)' }}>Why Us</span>
-            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Altitude?</h2>
+            <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
+            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Nexora?</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 max-w-5xl mx-auto">
             {WHY.map(({ icon: Icon, label }, i) => (

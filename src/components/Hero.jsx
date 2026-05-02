@@ -28,9 +28,9 @@ export default function Hero() {
       className="min-h-screen flex items-center pt-20 pb-20 relative overflow-hidden"
       style={{
         background: `
-          radial-gradient(ellipse 70% 60% at 10% 50%, rgba(230,30,42,0.06) 0%, transparent 70%),
+          radial-gradient(ellipse 70% 60% at 10% 50%, rgba(30,127,224,0.06) 0%, transparent 70%),
           radial-gradient(ellipse 50% 70% at 90% 10%, rgba(13,18,48,0.05) 0%, transparent 70%),
-          radial-gradient(ellipse 60% 50% at 60% 90%, rgba(230,30,42,0.04) 0%, transparent 60%),
+          radial-gradient(ellipse 60% 50% at 60% 90%, rgba(30,127,224,0.04) 0%, transparent 60%),
           linear-gradient(180deg, #F8FAFB 0%, #FFFFFF 100%)
         `,
       }}
@@ -72,9 +72,9 @@ export default function Hero() {
               to="/services"
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-7 py-4
                          bg-brand text-white font-semibold rounded-lg text-[0.9375rem]
-                         shadow-[0_4px_16px_rgba(230,30,42,0.28)]
+                         shadow-[0_4px_16px_rgba(30,127,224,0.28)]
                          hover:bg-brand-dark hover:-translate-y-px
-                         hover:shadow-[0_6px_24px_rgba(230,30,42,0.38)] transition-all duration-200"
+                         hover:shadow-[0_6px_24px_rgba(30,127,224,0.38)] transition-all duration-200"
             >
               Get Started <ArrowRight className="w-5 h-5" />
             </Link>

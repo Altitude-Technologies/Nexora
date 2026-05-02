@@ -30,7 +30,7 @@ export default function AboutPage() {
         ref={headerRef}
         className="pt-32 pb-20 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 70% 60% at 10% 50%, rgba(230,30,42,0.05) 0%, transparent 70%),
+          background: `radial-gradient(ellipse 70% 60% at 10% 50%, rgba(30,127,224,0.05) 0%, transparent 70%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
       >
@@ -43,7 +43,7 @@ export default function AboutPage() {
               <span className="text-gradient">Your Digital Future</span>
             </h1>
             <p className="text-navy/60 text-xl leading-relaxed">
-              Altitude Technologies is a modern technology company focused on delivering innovative
+              Nexora is a modern technology company focused on delivering innovative
               digital solutions using AI, automation, and cutting-edge development frameworks.
               We don&apos;t just build products — we create growth ecosystems.
             </p>
@@ -138,8 +138,8 @@ export default function AboutPage() {
             <a
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-4 bg-brand text-white font-semibold rounded-lg
-                         shadow-[0_4px_16px_rgba(230,30,42,0.25)] hover:bg-brand-dark hover:-translate-y-px
-                         hover:shadow-[0_6px_24px_rgba(230,30,42,0.35)] transition-all duration-200"
+                         shadow-[0_4px_16px_rgba(30,127,224,0.25)] hover:bg-brand-dark hover:-translate-y-px
+                         hover:shadow-[0_6px_24px_rgba(30,127,224,0.35)] transition-all duration-200"
             >
               Start Working With Us <ArrowRight className="w-5 h-5" />
             </a>

@@ -66,10 +66,10 @@ export default function FloatingContact() {
         aria-label="Contact us"
         className="w-14 h-14 rounded-full flex items-center justify-center shadow-xl transition-all duration-300 hover:scale-105"
         style={{
-          background: open ? '#0D1230' : '#E61E2A',
+          background: open ? '#0D1230' : '#1E7FE0',
           boxShadow: open
             ? '0 8px 32px rgba(13,18,48,0.35)'
-            : '0 8px 32px rgba(230,30,42,0.45)',
+            : '0 8px 32px rgba(30,127,224,0.45)',
         }}
       >
         {open

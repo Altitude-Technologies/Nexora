@@ -9,7 +9,7 @@ export default function CTABand() {
     <section
       ref={sectionRef}
       className="py-20 relative overflow-hidden"
-      style={{ background: 'linear-gradient(135deg, #E61E2A 0%, #c41820 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #1E7FE0 0%, #1860B5 100%)' }}
     >
       {/* Dot texture */}
       <div

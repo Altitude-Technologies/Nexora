@@ -16,7 +16,7 @@ const SERVICES = [
     icon: Globe,
     title: 'Business Website Development',
     desc: 'Professional websites designed to represent your brand and attract customers.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['Company profile websites', 'Service-based websites', 'Portfolio websites'],
   },
   {
@@ -51,7 +51,7 @@ const SERVICES = [
     icon: Bot,
     title: 'AI-Powered Website Features',
     desc: 'Take your website to the next level with intelligent automation.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['AI Chatbots', 'Smart lead capture systems', 'Automation workflows', 'Personalized user experience'],
   },
 ]
@@ -69,9 +69,9 @@ const TECH = [
   {
     label: 'Frontend',
     icon: Layout,
-    color: '#be123c',
-    bg: 'rgba(252,165,165,0.15)',
-    border: 'rgba(252,165,165,0.35)',
+    color: '#0e7490',
+    bg: 'rgba(103,232,249,0.15)',
+    border: 'rgba(103,232,249,0.35)',
     items: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Next.js'],
     desc: 'Pixel-perfect, blazing-fast interfaces users love.',
   },
@@ -133,7 +133,7 @@ export default function WebDevPage() {
         ref={headerRef}
         className="pt-32 pb-24 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 80% 60% at 85% 40%, rgba(230,30,42,0.07) 0%, transparent 65%),
+          background: `radial-gradient(ellipse 80% 60% at 85% 40%, rgba(30,127,224,0.07) 0%, transparent 65%),
                        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(13,18,48,0.04) 0%, transparent 60%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
@@ -142,14 +142,14 @@ export default function WebDevPage() {
 
         {/* Floating decorative ring */}
         <div className="absolute right-0 top-20 w-[520px] h-[520px] rounded-full pointer-events-none opacity-[0.07]"
-          style={{ border: '2px solid #E61E2A', transform: 'translate(35%, -20%)' }} />
+          style={{ border: '2px solid #1E7FE0', transform: 'translate(35%, -20%)' }} />
         <div className="absolute right-0 top-20 w-[380px] h-[380px] rounded-full pointer-events-none opacity-[0.05]"
           style={{ border: '2px solid #0D1230', transform: 'translate(40%, -10%)' }} />
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="max-w-3xl fade-up">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-5 text-xs font-semibold tracking-wide"
-              style={{ background: 'rgba(230,30,42,0.08)', color: '#E61E2A', border: '1px solid rgba(230,30,42,0.15)' }}>
+              style={{ background: 'rgba(30,127,224,0.08)', color: '#1E7FE0', border: '1px solid rgba(30,127,224,0.15)' }}>
               <span className="w-1.5 h-1.5 rounded-full bg-brand animate-pulse" />
               Web Development Services
             </div>
@@ -167,7 +167,7 @@ export default function WebDevPage() {
                 className="btn-shine inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl hover:-translate-y-px transition-transform duration-200 text-base"
                 style={{
                   color: '#fff',
-                  boxShadow: '0 4px 20px rgba(230,30,42,0.4)',
+                  boxShadow: '0 4px 20px rgba(30,127,224,0.4)',
                 }}
               >
                 Start Your Project <ArrowRight className="w-4 h-4" />
@@ -186,7 +186,7 @@ export default function WebDevPage() {
             <div className="flex flex-wrap gap-3">
               {STATS.map(({ value, label }) => (
                 <div key={label} className="flex flex-col items-center px-5 py-3 rounded-xl"
-                  style={{ background: 'rgba(230,30,42,0.05)', border: '1px solid rgba(230,30,42,0.15)', boxShadow: '0 2px 12px rgba(230,30,42,0.06)' }}>
+                  style={{ background: 'rgba(30,127,224,0.05)', border: '1px solid rgba(30,127,224,0.15)', boxShadow: '0 2px 12px rgba(30,127,224,0.06)' }}>
                   <p className="font-display font-black text-2xl text-navy">{value}</p>
                   <p className="text-navy/45 text-xs mt-0.5 whitespace-nowrap">{label}</p>
                 </div>
@@ -201,7 +201,7 @@ export default function WebDevPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Altitude Technologies, we don't just build websites — we create powerful digital experiences
+              At Nexora, we don't just build websites — we create powerful digital experiences
               that help businesses grow, convert, and scale. Whether you're a startup, small business, or enterprise,
               our web solutions are designed to deliver:
             </p>
@@ -215,7 +215,7 @@ export default function WebDevPage() {
                 <div
                   key={label}
                   className="rounded-xl px-4 py-4 text-sm font-semibold text-navy flex flex-col items-center gap-2"
-                  style={{ background: 'rgba(254,226,226,0.35)', border: '1px solid rgba(252,165,165,0.25)' }}
+                  style={{ background: 'rgba(207,250,254,0.35)', border: '1px solid rgba(103,232,249,0.25)' }}
                 >
                   <Icon className="w-5 h-5 text-brand" />
                   {label}
@@ -323,9 +323,9 @@ export default function WebDevPage() {
       >
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14 fade-up">
-            <span className="section-label justify-center" style={{ color: 'rgba(230,30,42,0.9)' }}>Why Us</span>
+            <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
             <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">
-              Why Choose Altitude?
+              Why Choose Nexora?
             </h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just build websites. We build growth engines.</p>
           </div>
@@ -517,9 +517,9 @@ function FAQSection({ faqRef }) {
                 key={q}
                 className="rounded-2xl overflow-hidden transition-all duration-300"
                 style={{
-                  border: isOpen ? '1px solid rgba(230,30,42,0.25)' : '1px solid rgba(13,18,48,0.08)',
-                  boxShadow: isOpen ? '0 8px 32px rgba(230,30,42,0.08)' : '0 2px 12px rgba(13,18,48,0.04)',
-                  background: isOpen ? 'rgba(254,226,226,0.25)' : 'rgba(255,255,255,0.9)',
+                  border: isOpen ? '1px solid rgba(30,127,224,0.25)' : '1px solid rgba(13,18,48,0.08)',
+                  boxShadow: isOpen ? '0 8px 32px rgba(30,127,224,0.08)' : '0 2px 12px rgba(13,18,48,0.04)',
+                  background: isOpen ? 'rgba(207,250,254,0.25)' : 'rgba(255,255,255,0.9)',
                 }}
               >
                 <button
@@ -530,7 +530,7 @@ function FAQSection({ faqRef }) {
                     <span
                       className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 font-display font-black text-xs transition-colors duration-300"
                       style={{
-                        background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)',
+                        background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)',
                         color: isOpen ? '#fff' : '#0D1230',
                       }}
                     >
@@ -543,7 +543,7 @@ function FAQSection({ faqRef }) {
                   <span
                     className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ml-4 transition-all duration-300"
                     style={{
-                      background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)',
+                      background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)',
                     }}
                   >
                     {isOpen

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X, ArrowRight } from 'lucide-react'
-import altitudeLogo from '../assets/Altitude-Log.svg'
+import nexoraLogo from '../assets/nexora.jpg'
 
 const NAV_LINKS = [
   { label: 'Services',        to: '/services'       },
@@ -37,7 +37,7 @@ export default function Navbar() {
 
         {/* ── Logo ── */}
         <Link to="/" className="flex items-center">
-          <img src={altitudeLogo} alt="Altitude Technologies" className="h-10 w-auto" />
+          <img src={nexoraLogo} alt="Nexora" className="h-10 w-auto rounded" />
         </Link>
 
         {/* ── Desktop Links ── */}
@@ -64,8 +64,8 @@ export default function Navbar() {
           <Link
             to="/contact"
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand text-white text-sm font-semibold rounded-lg
-                       shadow-[0_4px_16px_rgba(230,30,42,0.25)] hover:bg-brand-dark hover:-translate-y-px
-                       hover:shadow-[0_6px_24px_rgba(230,30,42,0.35)] transition-all duration-200"
+                       shadow-[0_4px_16px_rgba(30,127,224,0.25)] hover:bg-brand-dark hover:-translate-y-px
+                       hover:shadow-[0_6px_24px_rgba(30,127,224,0.35)] transition-all duration-200"
           >
             Get Started <ArrowRight className="w-4 h-4" />
           </Link>
@@ -106,7 +106,7 @@ export default function Navbar() {
               to="/contact"
               onClick={closeMobile}
               className="mt-2 flex items-center justify-center gap-2 px-5 py-3 bg-brand text-white
-                         text-sm font-semibold rounded-lg shadow-[0_4px_16px_rgba(230,30,42,0.25)]"
+                         text-sm font-semibold rounded-lg shadow-[0_4px_16px_rgba(30,127,224,0.25)]"
             >
               Get Started <ArrowRight className="w-4 h-4" />
             </Link>

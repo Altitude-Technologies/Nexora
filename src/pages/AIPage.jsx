@@ -76,14 +76,14 @@ export default function AIPage() {
           <div className="max-w-3xl fade-up">
             <div
               className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-6"
-              style={{ background: 'rgba(230,30,42,0.15)', border: '1px solid rgba(230,30,42,0.30)' }}
+              style={{ background: 'rgba(30,127,224,0.15)', border: '1px solid rgba(30,127,224,0.30)' }}
             >
               <Sparkles className="w-4 h-4 text-brand" />
               <span className="text-xs font-semibold text-brand tracking-widest uppercase">Our Strongest Capability</span>
             </div>
             <h1 className="font-display font-black text-5xl sm:text-6xl text-white tracking-tight mb-6">
               Smarter Business with<br />
-              <span style={{ background: 'linear-gradient(135deg, #E61E2A, #ff6b73)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+              <span style={{ background: 'linear-gradient(135deg, #1E7FE0, #6BCFFF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
                 AI &amp; Automation
               </span>
             </h1>

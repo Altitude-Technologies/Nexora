@@ -11,7 +11,7 @@ export default function ContactPage() {
         ref={headerRef}
         className="pt-32 pb-16 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 70% 60% at 50% 80%, rgba(230,30,42,0.05) 0%, transparent 70%),
+          background: `radial-gradient(ellipse 70% 60% at 50% 80%, rgba(30,127,224,0.05) 0%, transparent 70%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
       >

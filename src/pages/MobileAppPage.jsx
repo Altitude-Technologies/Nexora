@@ -44,14 +44,14 @@ const SERVICES = [
     icon: Bot,
     title: 'AI-Powered Mobile Apps',
     desc: 'Take your mobile apps to the next level with intelligent features.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['AI chatbots inside apps', 'Personalized recommendations', 'Voice assistants', 'Smart automation features'],
   },
   {
     icon: Palette,
     title: 'UI/UX Design for Mobile',
     desc: 'Clean, modern interfaces built for engagement and conversion.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['Intuitive navigation', 'Engaging user experiences', 'High-conversion design'],
   },
 ]
@@ -70,7 +70,7 @@ const TECH = [
   {
     label: 'Languages',
     icon: Code2,
-    color: '#be123c',
+    color: '#0e7490',
     items: ['Kotlin', 'Java', 'Swift', 'Dart'],
     desc: 'Native and modern languages for peak performance.',
   },
@@ -158,7 +158,7 @@ export default function MobileAppPage() {
               <Link
                 to="/contact"
                 className="btn-shine inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl hover:-translate-y-px transition-transform duration-200 text-base"
-                style={{ color: '#fff', boxShadow: '0 4px 20px rgba(230,30,42,0.4)' }}
+                style={{ color: '#fff', boxShadow: '0 4px 20px rgba(30,127,224,0.4)' }}
               >
                 Start Your App Project <ArrowRight className="w-4 h-4" />
               </Link>
@@ -173,7 +173,7 @@ export default function MobileAppPage() {
             <div className="flex flex-wrap gap-3">
               {STATS.map(({ value, label }) => (
                 <div key={label} className="flex flex-col items-center px-5 py-3 rounded-xl"
-                  style={{ background: 'rgba(230,30,42,0.05)', border: '1px solid rgba(230,30,42,0.15)', boxShadow: '0 2px 12px rgba(230,30,42,0.06)' }}>
+                  style={{ background: 'rgba(30,127,224,0.05)', border: '1px solid rgba(30,127,224,0.15)', boxShadow: '0 2px 12px rgba(30,127,224,0.06)' }}>
                   <p className="font-display font-black text-2xl text-navy">{value}</p>
                   <p className="text-navy/45 text-xs mt-0.5 whitespace-nowrap">{label}</p>
                 </div>
@@ -188,7 +188,7 @@ export default function MobileAppPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Altitude Technologies, we create innovative mobile applications that transform ideas into
+              At Nexora, we create innovative mobile applications that transform ideas into
               powerful digital products. Whether you need a business app, startup MVP, or enterprise solution,
               our apps are built to deliver:
             </p>
@@ -305,9 +305,9 @@ export default function MobileAppPage() {
       >
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14 fade-up">
-            <span className="section-label justify-center" style={{ color: 'rgba(230,30,42,0.9)' }}>Why Us</span>
+            <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
             <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">
-              Why Choose Altitude?
+              Why Choose Nexora?
             </h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just build apps. We build mobile growth engines.</p>
           </div>
@@ -485,9 +485,9 @@ function MobileFAQSection({ faqRef }) {
                 key={q}
                 className="rounded-2xl overflow-hidden transition-all duration-300"
                 style={{
-                  border: isOpen ? '1px solid rgba(230,30,42,0.25)' : '1px solid rgba(13,18,48,0.08)',
-                  boxShadow: isOpen ? '0 8px 32px rgba(230,30,42,0.08)' : '0 2px 12px rgba(13,18,48,0.04)',
-                  background: isOpen ? 'rgba(254,226,226,0.25)' : 'rgba(255,255,255,0.9)',
+                  border: isOpen ? '1px solid rgba(30,127,224,0.25)' : '1px solid rgba(13,18,48,0.08)',
+                  boxShadow: isOpen ? '0 8px 32px rgba(30,127,224,0.08)' : '0 2px 12px rgba(13,18,48,0.04)',
+                  background: isOpen ? 'rgba(207,250,254,0.25)' : 'rgba(255,255,255,0.9)',
                 }}
               >
                 <button
@@ -497,7 +497,7 @@ function MobileFAQSection({ faqRef }) {
                   <div className="flex items-center gap-4">
                     <span
                       className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 font-display font-black text-xs transition-colors duration-300"
-                      style={{ background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)', color: isOpen ? '#fff' : '#0D1230' }}
+                      style={{ background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)', color: isOpen ? '#fff' : '#0D1230' }}
                     >
                       {String(i + 1).padStart(2, '0')}
                     </span>
@@ -507,7 +507,7 @@ function MobileFAQSection({ faqRef }) {
                   </div>
                   <span
                     className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ml-4 transition-all duration-300"
-                    style={{ background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)' }}
+                    style={{ background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)' }}
                   >
                     {isOpen ? <Minus className="w-4 h-4 text-white" /> : <Plus className="w-4 h-4 text-navy" />}
                   </span>

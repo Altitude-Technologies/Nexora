@@ -32,7 +32,7 @@ export default function About() {
               <span className="text-gradient">Growth Ecosystems</span>
             </h2>
             <p className="text-navy/60 text-lg leading-relaxed mb-5">
-              Altitude Technologies is a modern technology company focused on delivering innovative
+              Nexora is a modern technology company focused on delivering innovative
               digital solutions using AI, automation, and cutting-edge development frameworks.
             </p>
             <p className="text-navy/55 leading-relaxed mb-8">
@@ -66,8 +66,8 @@ export default function About() {
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 px-7 py-4 bg-brand text-white font-semibold rounded-lg
-                         shadow-[0_4px_16px_rgba(230,30,42,0.25)] hover:bg-brand-dark hover:-translate-y-px
-                         hover:shadow-[0_6px_24px_rgba(230,30,42,0.35)] transition-all duration-200"
+                         shadow-[0_4px_16px_rgba(30,127,224,0.25)] hover:bg-brand-dark hover:-translate-y-px
+                         hover:shadow-[0_6px_24px_rgba(30,127,224,0.35)] transition-all duration-200"
             >
               Work With Us <ArrowRight className="w-5 h-5" />
             </Link>

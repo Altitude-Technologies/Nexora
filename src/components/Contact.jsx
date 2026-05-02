@@ -14,7 +14,7 @@ const SERVICES_OPTIONS = [
 
 const CONTACT_INFO = [
   { icon: Phone,  label: 'Phone / WhatsApp', value: '+91 78713 79727',          href: 'tel:+917871379727'                        },
-  { icon: Mail,   label: 'Email',            value: 'altitudetechind@gmail.com', href: 'mailto:altitudetechind@gmail.com'         },
+  { icon: Mail,   label: 'Email',            value: 'nexora@gmail.com', href: 'mailto:nexora@gmail.com'         },
   { icon: MapPin, label: 'Location',         value: 'Remote-First · Worldwide',  href: null                                       },
 ]
 
@@ -168,7 +168,7 @@ export default function Contact({ hideHeader = false }) {
                         ? 'bg-green-600 shadow-[0_4px_16px_rgba(22,163,74,0.25)]'
                         : status === 'loading'
                         ? 'bg-brand/70 cursor-wait'
-                        : 'bg-brand shadow-[0_4px_16px_rgba(230,30,42,0.25)] hover:bg-brand-dark hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(230,30,42,0.35)]'
+                        : 'bg-brand shadow-[0_4px_16px_rgba(30,127,224,0.25)] hover:bg-brand-dark hover:-translate-y-px hover:shadow-[0_6px_24px_rgba(30,127,224,0.35)]'
                     }`}
                 >
                   {status === 'sent' ? (

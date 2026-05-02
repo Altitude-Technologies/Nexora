@@ -19,8 +19,8 @@ const SERVICES = [
     desc: 'We create fast, secure, and SEO-friendly websites that convert visitors into customers. From landing pages to full e-commerce platforms, built with modern frameworks.',
     pastel: 'rgba(254, 226, 226, 0.45)',
     border: 'rgba(252, 165, 165, 0.30)',
-    corner: 'rgba(230, 30, 42, 0.03)',
-    iconBg: 'rgba(252, 165, 165, 0.35)', iconColor: '#be123c',
+    corner: 'rgba(30, 127, 224, 0.03)',
+    iconBg: 'rgba(252, 165, 165, 0.35)', iconColor: '#0e7490',
     knowMore: '/services/web-development',
     items: [
       { icon: Globe,      text: 'Static & Dynamic Websites' },
@@ -55,7 +55,7 @@ const SERVICES = [
     desc: 'Tailor-made business software solutions that automate operations, integrate with your existing tools, and scale with your team.',
     pastel: 'rgba(254, 243, 199, 0.45)',
     border: 'rgba(252, 211, 77, 0.30)',
-    corner: 'rgba(230, 30, 42, 0.03)',
+    corner: 'rgba(30, 127, 224, 0.03)',
     iconBg: 'rgba(252, 211, 77, 0.35)', iconColor: '#92400e',
     knowMore: '/services/software',
     items: [
@@ -91,7 +91,7 @@ const SERVICES = [
     desc: 'Data-driven strategies to grow your online presence, drive traffic, and convert visitors. Every campaign is tracked, measured, and optimized.',
     pastel: 'rgba(220, 252, 231, 0.45)',
     border: 'rgba(134, 239, 172, 0.30)',
-    corner: 'rgba(230, 30, 42, 0.03)',
+    corner: 'rgba(30, 127, 224, 0.03)',
     iconBg: 'rgba(134, 239, 172, 0.35)', iconColor: '#15803d',
     knowMore: '/services/digital-marketing',
     items: [
@@ -128,7 +128,7 @@ export default function ServicesPage() {
         ref={headerRef}
         className="pt-32 pb-20 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 70% 60% at 90% 50%, rgba(230,30,42,0.03) 0%, transparent 70%),
+          background: `radial-gradient(ellipse 70% 60% at 90% 50%, rgba(30,127,224,0.03) 0%, transparent 70%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
       >
@@ -182,7 +182,7 @@ export default function ServicesPage() {
                 {/* Icon */}
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
-                  style={dark ? { background: '#E61E2A' } : { background: iconBg }}
+                  style={dark ? { background: '#1E7FE0' } : { background: iconBg }}
                 >
                   <Icon className="w-6 h-6" style={dark ? { color: '#fff' } : { color: iconColor }} />
                 </div>
@@ -202,7 +202,7 @@ export default function ServicesPage() {
                 <ul className="space-y-2.5">
                   {items.map(({ icon: ItemIcon, text }) => (
                     <li key={text} className={`flex items-center gap-2.5 text-sm ${dark ? 'text-white/65' : 'text-navy/65'}`}>
-                      <ItemIcon className="w-4 h-4 flex-shrink-0" style={dark ? { color: '#E61E2A' } : { color: iconColor }} />
+                      <ItemIcon className="w-4 h-4 flex-shrink-0" style={dark ? { color: '#1E7FE0' } : { color: iconColor }} />
                       {text}
                     </li>
                   ))}

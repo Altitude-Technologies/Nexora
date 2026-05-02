@@ -30,7 +30,7 @@ const SERVICES = [
     icon: PenTool,
     title: 'Wireframing & Prototyping',
     desc: 'From rough sketches to interactive prototypes — validated before development.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['Low & high-fidelity wireframes', 'Interactive prototypes', 'Click-through demos', 'Stakeholder presentations'],
   },
   {
@@ -51,7 +51,7 @@ const SERVICES = [
     icon: Palette,
     title: 'Brand Identity & Design Systems',
     desc: 'Cohesive brand visuals and scalable design systems for your product.',
-    pastel: 'rgba(254,226,226,0.45)', border: 'rgba(252,165,165,0.30)', iconBg: 'rgba(252,165,165,0.35)', iconColor: '#be123c',
+    pastel: 'rgba(207,250,254,0.45)', border: 'rgba(103,232,249,0.30)', iconBg: 'rgba(103,232,249,0.35)', iconColor: '#0e7490',
     items: ['Logo & brand guidelines', 'Color & typography systems', 'Icon sets', 'Reusable component libraries'],
   },
 ]
@@ -77,7 +77,7 @@ const TECH = [
   {
     label: 'Prototyping',
     icon: MousePointer,
-    color: '#be123c',
+    color: '#0e7490',
     items: ['Figma Prototype', 'InVision', 'Framer', 'Lottie'],
     desc: 'High-fidelity interactive prototypes that feel real.',
   },
@@ -167,7 +167,7 @@ export default function UiUxPage() {
               <Link
                 to="/contact"
                 className="btn-shine inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl hover:-translate-y-px transition-transform duration-200 text-base"
-                style={{ color: '#fff', boxShadow: '0 4px 20px rgba(230,30,42,0.4)' }}
+                style={{ color: '#fff', boxShadow: '0 4px 20px rgba(30,127,224,0.4)' }}
               >
                 Start Your Design Project <ArrowRight className="w-4 h-4" />
               </Link>
@@ -181,7 +181,7 @@ export default function UiUxPage() {
             <div className="flex flex-wrap gap-3">
               {STATS.map(({ value, label }) => (
                 <div key={label} className="flex flex-col items-center px-5 py-3 rounded-xl"
-                  style={{ background: 'rgba(230,30,42,0.05)', border: '1px solid rgba(230,30,42,0.15)', boxShadow: '0 2px 12px rgba(230,30,42,0.06)' }}>
+                  style={{ background: 'rgba(30,127,224,0.05)', border: '1px solid rgba(30,127,224,0.15)', boxShadow: '0 2px 12px rgba(30,127,224,0.06)' }}>
                   <p className="font-display font-black text-2xl text-navy">{value}</p>
                   <p className="text-navy/45 text-xs mt-0.5 whitespace-nowrap">{label}</p>
                 </div>
@@ -196,7 +196,7 @@ export default function UiUxPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center fade-up">
             <p className="text-navy/65 text-lg leading-relaxed mb-10">
-              At Altitude Technologies, we combine aesthetics with psychology to create interfaces
+              At Nexora, we combine aesthetics with psychology to create interfaces
               users love. From startups to enterprises, our designs are built to deliver:
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -309,8 +309,8 @@ export default function UiUxPage() {
       <section className="py-24" ref={whyRef} style={{ background: 'linear-gradient(135deg, #0D1230 0%, #1a2050 100%)' }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14 fade-up">
-            <span className="section-label justify-center" style={{ color: 'rgba(230,30,42,0.9)' }}>Why Us</span>
-            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Altitude?</h2>
+            <span className="section-label justify-center" style={{ color: 'rgba(30,127,224,0.9)' }}>Why Us</span>
+            <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mt-4">Why Choose Nexora?</h2>
             <p className="mt-4 text-white/40 max-w-md mx-auto">We don't just make things look good. We make them work beautifully.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-5xl mx-auto">
@@ -420,17 +420,17 @@ function UiUxFAQSection({ faqRef }) {
             const isOpen = open === i
             return (
               <div key={q} className="rounded-2xl overflow-hidden transition-all duration-300"
-                style={{ border: isOpen ? '1px solid rgba(230,30,42,0.25)' : '1px solid rgba(13,18,48,0.08)', boxShadow: isOpen ? '0 8px 32px rgba(230,30,42,0.08)' : '0 2px 12px rgba(13,18,48,0.04)', background: isOpen ? 'rgba(254,226,226,0.25)' : 'rgba(255,255,255,0.9)' }}>
+                style={{ border: isOpen ? '1px solid rgba(30,127,224,0.25)' : '1px solid rgba(13,18,48,0.08)', boxShadow: isOpen ? '0 8px 32px rgba(30,127,224,0.08)' : '0 2px 12px rgba(13,18,48,0.04)', background: isOpen ? 'rgba(207,250,254,0.25)' : 'rgba(255,255,255,0.9)' }}>
                 <button className="w-full flex items-center justify-between px-7 py-5 text-left" onClick={() => setOpen(isOpen ? null : i)}>
                   <div className="flex items-center gap-4">
                     <span className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 font-display font-black text-xs transition-colors duration-300"
-                      style={{ background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)', color: isOpen ? '#fff' : '#0D1230' }}>
+                      style={{ background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)', color: isOpen ? '#fff' : '#0D1230' }}>
                       {String(i + 1).padStart(2, '0')}
                     </span>
                     <span className={`font-display font-bold text-base transition-colors duration-200 ${isOpen ? 'text-brand' : 'text-navy'}`}>{q}</span>
                   </div>
                   <span className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ml-4 transition-all duration-300"
-                    style={{ background: isOpen ? '#E61E2A' : 'rgba(13,18,48,0.06)' }}>
+                    style={{ background: isOpen ? '#1E7FE0' : 'rgba(13,18,48,0.06)' }}>
                     {isOpen ? <Minus className="w-4 h-4 text-white" /> : <Plus className="w-4 h-4 text-navy" />}
                   </span>
                 </button>

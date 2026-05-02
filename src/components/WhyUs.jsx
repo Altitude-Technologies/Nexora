@@ -47,7 +47,7 @@ export default function WhyUs() {
         <div className="text-center mb-16 fade-up">
           <span className="section-label justify-center">Our Edge</span>
           <h2 className="font-display font-black text-4xl sm:text-5xl text-navy tracking-tight mt-4">
-            Why Choose Altitude
+            Why Choose Nexora
           </h2>
           <p className="text-navy/55 mt-4 max-w-lg mx-auto">
             Five reasons top businesses partner with us to build their digital future.

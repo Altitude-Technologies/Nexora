@@ -62,7 +62,7 @@ export default function AISection() {
         <div className="text-center mb-16 fade-up">
           <div
             className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-6"
-            style={{ background: 'rgba(230,30,42,0.15)', border: '1px solid rgba(230,30,42,0.30)' }}
+            style={{ background: 'rgba(30,127,224,0.15)', border: '1px solid rgba(30,127,224,0.30)' }}
           >
             <Sparkles className="w-4 h-4 text-brand" />
             <span className="text-xs font-semibold text-brand tracking-widest uppercase">Our Strongest Capability</span>
@@ -70,7 +70,7 @@ export default function AISection() {
           <h2 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight mb-4">
             Smarter Business with<br />
             <span style={{
-              background: 'linear-gradient(135deg, #E61E2A, #ff6b73)',
+              background: 'linear-gradient(135deg, #1E7FE0, #6BCFFF)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text',
@@ -131,8 +131,8 @@ export default function AISection() {
           <Link
             to="/ai-automation"
             className="inline-flex items-center gap-2 px-7 py-4 bg-brand text-white font-semibold rounded-lg
-                       shadow-[0_4px_16px_rgba(230,30,42,0.30)] hover:bg-brand-dark hover:-translate-y-px
-                       hover:shadow-[0_6px_24px_rgba(230,30,42,0.40)] transition-all duration-200"
+                       shadow-[0_4px_16px_rgba(30,127,224,0.30)] hover:bg-brand-dark hover:-translate-y-px
+                       hover:shadow-[0_6px_24px_rgba(30,127,224,0.40)] transition-all duration-200"
           >
             Explore AI Solutions <ArrowRight className="w-5 h-5" />
           </Link>

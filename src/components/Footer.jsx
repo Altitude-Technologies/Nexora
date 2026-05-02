@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLink, Link2, Code2 } from 'lucide-react'
-import altitudeLogo from '../assets/Altitude-Log.svg'
+import nexoraLogo from '../assets/nexora.jpg'
 import PrivacyModal from './PrivacyModal'
 import TermsModal from './TermsModal'
 
@@ -31,7 +31,7 @@ const InstagramIcon = () => (
 const SOCIAL = [
   { icon: ExternalLink,  href: '#',                                          label: 'Twitter / X' },
   { icon: Link2,         href: '#',                                          label: 'LinkedIn'    },
-  { icon: InstagramIcon, href: 'https://www.instagram.com/altitudetechind/', label: 'Instagram'  },
+  { icon: InstagramIcon, href: 'https://www.instagram.com/nexora/', label: 'Instagram'  },
   { icon: Code2,         href: '#',                                          label: 'GitHub'      },
 ]
 
@@ -49,7 +49,7 @@ export default function Footer() {
           {/* ── Brand ── */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-5">
-              <img src={altitudeLogo} alt="Altitude Technologies" className="h-10 w-auto brightness-0 invert" />
+              <img src={nexoraLogo} alt="Nexora" className="h-10 w-auto rounded" />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs mb-6">
               Building the next generation of digital products — powered by AI, designed for scale,
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* ── Bottom bar ── */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/25 text-xs">
-            © {new Date().getFullYear()} Altitude Technologies. All rights reserved.
+            © {new Date().getFullYear()} Nexora. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <button onClick={() => setShowPrivacy(true)} className="text-white/25 text-xs hover:text-white/55 transition-colors">Privacy Policy</button>

@@ -15,8 +15,8 @@ const SERVICES = [
     accent: 'brand',
     pastel: 'rgba(254, 226, 226, 0.45)',   // soft rose
     border: 'rgba(252, 165, 165, 0.30)',
-    corner: 'rgba(230, 30, 42, 0.03)',
-    iconBg: 'rgba(252, 165, 165, 0.35)', iconColor: '#be123c',
+    corner: 'rgba(30, 127, 224, 0.03)',
+    iconBg: 'rgba(252, 165, 165, 0.35)', iconColor: '#0e7490',
     knowMore: '/services/web-development',
     items: [
       { icon: Globe,       text: 'Website Development (Static, Dynamic, E-commerce)' },

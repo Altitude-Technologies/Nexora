@@ -1,4 +1,4 @@
-# Altitude Technologies — Website Implementation
+# Nexora — Website Implementation
 
 > Premium, modern, white glassmorphism tech company website.
 > Stack: **React 19 + Vite 8 + Tailwind CSS v4 + Lucide React**
@@ -8,7 +8,7 @@
 ## Project Structure
 
 ```
-altitude-technologies/
+nexora/
 ├── index.html                        # Entry HTML (fonts, meta, root mount)
 ├── vite.config.js                    # Vite config with @tailwindcss/vite plugin
 ├── package.json
@@ -123,8 +123,8 @@ npm run build
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Altitude Technologies — Next-Gen Digital Solutions</title>
-  <meta name="description" content="Altitude Technologies builds powerful websites, intelligent applications, and AI-driven solutions that transform your ideas into scalable digital success.">
+  <title>Nexora — Next-Gen Digital Solutions</title>
+  <meta name="description" content="Nexora builds powerful websites, intelligent applications, and AI-driven solutions that transform your ideas into scalable digital success.">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -195,7 +195,7 @@ npm run build
       <div class="w-8 h-8 rounded-lg bg-[#E61E2A] flex items-center justify-center shadow-sm">
         <i data-lucide="triangle" class="w-4 h-4 text-white" style="fill:white"></i>
       </div>
-      <span class="font-display font-extrabold text-[#0D1230] text-xl tracking-tight">altitude<span class="text-[#E61E2A]">.</span></span>
+      <span class="font-display font-extrabold text-[#0D1230] text-xl tracking-tight">nexora<span class="text-[#E61E2A]">.</span></span>
     </a>
     <div class="hidden md:flex items-center gap-8">
       <a href="#services"      class="text-sm font-medium text-[#0D1230]/60 hover:text-[#0D1230] transition-colors">Services</a>
@@ -341,7 +341,7 @@ npm run build
       <div class="fade-up">
         <span class="section-label">About Us</span>
         <h2 class="font-display font-black text-4xl sm:text-5xl text-[#0D1230] tracking-tight mt-4 mb-6">We Build Digital<br><span class="text-gradient">Growth Ecosystems</span></h2>
-        <p class="text-[#0D1230]/60 text-lg leading-relaxed mb-5">Altitude Technologies is a modern technology company focused on delivering innovative digital solutions using AI, automation, and cutting-edge development frameworks.</p>
+        <p class="text-[#0D1230]/60 text-lg leading-relaxed mb-5">Nexora is a modern technology company focused on delivering innovative digital solutions using AI, automation, and cutting-edge development frameworks.</p>
         <p class="text-[#0D1230]/55 leading-relaxed mb-8">We don't just build products — we create growth ecosystems powered by technology, tailored to your unique business goals.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
           <div class="glass-card rounded-xl p-5"><div class="w-8 h-8 rounded-lg bg-[#E61E2A]/10 flex items-center justify-center mb-3"><i data-lucide="target" class="w-4 h-4 text-[#E61E2A]"></i></div><h4 class="font-display font-semibold text-sm text-[#0D1230] mb-1">Our Mission</h4><p class="text-xs text-[#0D1230]/55 leading-relaxed">Empower businesses with smart, scalable digital solutions that drive growth.</p></div>
@@ -370,7 +370,7 @@ npm run build
 ══════════════════════════════════════ -->
 <section class="py-24 bg-white relative overflow-hidden">
   <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-16 fade-up"><span class="section-label justify-center">Our Edge</span><h2 class="font-display font-black text-4xl sm:text-5xl text-[#0D1230] tracking-tight mt-4">Why Choose Altitude</h2></div>
+    <div class="text-center mb-16 fade-up"><span class="section-label justify-center">Our Edge</span><h2 class="font-display font-black text-4xl sm:text-5xl text-[#0D1230] tracking-tight mt-4">Why Choose Nexora</h2></div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
       <div class="glass-card rounded-2xl p-6 text-center card-lift fade-up d1"><div class="w-12 h-12 rounded-xl bg-[#E61E2A]/10 flex items-center justify-center mx-auto mb-4"><i data-lucide="brain" class="w-6 h-6 text-[#E61E2A]"></i></div><h4 class="font-display font-semibold text-sm text-[#0D1230] mb-2">Advanced AI &amp; ML Integration</h4><p class="text-xs text-[#0D1230]/50">Cutting-edge intelligence built into every product we deliver.</p></div>
       <div class="glass-card rounded-2xl p-6 text-center card-lift fade-up d2"><div class="w-12 h-12 rounded-xl bg-[#0D1230]/8 flex items-center justify-center mx-auto mb-4"><i data-lucide="maximize-2" class="w-6 h-6 text-[#0D1230]"></i></div><h4 class="font-display font-semibold text-sm text-[#0D1230] mb-2">Scalable &amp; Future-Proof</h4><p class="text-xs text-[#0D1230]/50">Built to grow with your business, not against it.</p></div>
@@ -457,7 +457,7 @@ npm run build
           <h3 class="font-display font-bold text-xl text-[#0D1230] mb-8">Contact Information</h3>
           <div class="space-y-6 flex-1">
             <div class="flex items-start gap-4"><div class="w-10 h-10 rounded-lg bg-[#E61E2A]/10 flex items-center justify-center flex-shrink-0"><i data-lucide="phone" class="w-5 h-5 text-[#E61E2A]"></i></div><div><div class="text-xs text-[#0D1230]/40 font-medium uppercase tracking-wide mb-1">Phone</div><a href="tel:+1234567890" class="text-[#0D1230] font-medium text-sm hover:text-[#E61E2A] transition-colors">+1 (234) 567-890</a></div></div>
-            <div class="flex items-start gap-4"><div class="w-10 h-10 rounded-lg bg-[#E61E2A]/10 flex items-center justify-center flex-shrink-0"><i data-lucide="mail" class="w-5 h-5 text-[#E61E2A]"></i></div><div><div class="text-xs text-[#0D1230]/40 font-medium uppercase tracking-wide mb-1">Email</div><a href="mailto:hello@altitudetech.com" class="text-[#0D1230] font-medium text-sm hover:text-[#E61E2A] transition-colors">hello@altitudetech.com</a></div></div>
+            <div class="flex items-start gap-4"><div class="w-10 h-10 rounded-lg bg-[#E61E2A]/10 flex items-center justify-center flex-shrink-0"><i data-lucide="mail" class="w-5 h-5 text-[#E61E2A]"></i></div><div><div class="text-xs text-[#0D1230]/40 font-medium uppercase tracking-wide mb-1">Email</div><a href="mailto:hello@nexora.com" class="text-[#0D1230] font-medium text-sm hover:text-[#E61E2A] transition-colors">hello@nexora.com</a></div></div>
             <div class="flex items-start gap-4"><div class="w-10 h-10 rounded-lg bg-[#E61E2A]/10 flex items-center justify-center flex-shrink-0"><i data-lucide="map-pin" class="w-5 h-5 text-[#E61E2A]"></i></div><div><div class="text-xs text-[#0D1230]/40 font-medium uppercase tracking-wide mb-1">Location</div><span class="text-[#0D1230] font-medium text-sm">Remote-First · Worldwide</span></div></div>
           </div>
           <div class="mt-8 pt-6 border-t border-black/8"><div class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-green-500"></div><span class="text-sm font-medium text-[#0D1230]">Currently accepting new projects</span></div></div>
@@ -487,7 +487,7 @@ npm run build
   <div class="max-w-7xl mx-auto px-6 py-16">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
       <div class="lg:col-span-2">
-        <a href="#" class="flex items-center gap-2 mb-5"><div class="w-8 h-8 rounded-lg bg-[#E61E2A] flex items-center justify-center"><i data-lucide="triangle" class="w-4 h-4 text-white" style="fill:white"></i></div><span class="font-display font-extrabold text-white text-xl tracking-tight">altitude<span class="text-[#E61E2A]">.</span></span></a>
+        <a href="#" class="flex items-center gap-2 mb-5"><div class="w-8 h-8 rounded-lg bg-[#E61E2A] flex items-center justify-center"><i data-lucide="triangle" class="w-4 h-4 text-white" style="fill:white"></i></div><span class="font-display font-extrabold text-white text-xl tracking-tight">nexora<span class="text-[#E61E2A]">.</span></span></a>
         <p class="text-white/40 text-sm leading-relaxed max-w-xs mb-6">Building the next generation of digital products — powered by AI, designed for scale, and built for businesses that mean business.</p>
         <div class="flex items-center gap-3">
           <a href="#" aria-label="Twitter"   class="w-9 h-9 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors" style="background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.10)"><i data-lucide="twitter"   class="w-4 h-4 text-white/55"></i></a>
@@ -517,7 +517,7 @@ npm run build
       </div>
     </div>
     <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="text-white/25 text-xs">© 2025 Altitude Technologies. All rights reserved.</p>
+      <p class="text-white/25 text-xs">© 2025 Nexora. All rights reserved.</p>
       <div class="flex items-center gap-6"><a href="#" class="text-white/25 text-xs hover:text-white/55 transition-colors">Privacy Policy</a><a href="#" class="text-white/25 text-xs hover:text-white/55 transition-colors">Terms of Service</a></div>
     </div>
   </div>

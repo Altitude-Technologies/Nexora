@@ -67,7 +67,7 @@ export default function WorkPage() {
         ref={headerRef}
         className="pt-32 pb-20 relative overflow-hidden"
         style={{
-          background: `radial-gradient(ellipse 60% 50% at 80% 60%, rgba(230,30,42,0.05) 0%, transparent 70%),
+          background: `radial-gradient(ellipse 60% 50% at 80% 60%, rgba(30,127,224,0.05) 0%, transparent 70%),
                        linear-gradient(180deg, #F8FAFB 0%, #fff 100%)`,
         }}
       >
@@ -160,8 +160,8 @@ export default function WorkPage() {
             <a
               href="/contact"
               className="inline-flex items-center gap-2 px-7 py-4 bg-brand text-white font-semibold rounded-lg
-                         shadow-[0_4px_16px_rgba(230,30,42,0.25)] hover:bg-brand-dark hover:-translate-y-px
-                         hover:shadow-[0_6px_24px_rgba(230,30,42,0.35)] transition-all duration-200"
+                         shadow-[0_4px_16px_rgba(30,127,224,0.25)] hover:bg-brand-dark hover:-translate-y-px
+                         hover:shadow-[0_6px_24px_rgba(30,127,224,0.35)] transition-all duration-200"
             >
               Start Your Project <ArrowRight className="w-5 h-5" />
             </a>
