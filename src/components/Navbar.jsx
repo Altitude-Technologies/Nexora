@@ -41,7 +41,7 @@ export default function Navbar() {
         </Link>
 
         {/* ── Desktop Links ── */}
-        <div className="hidden md:flex items-center gap-7">
+        <div className="hidden lg:flex items-center gap-7">
           {NAV_LINKS.map(({ label, to }) => (
             <NavLink
               key={to}
@@ -72,7 +72,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setMobileOpen((o) => !o)}
-            className="md:hidden p-2 rounded-lg hover:bg-black/5 transition-colors"
+            className="lg:hidden p-2 rounded-lg hover:bg-black/5 transition-colors"
             aria-label="Toggle menu"
           >
             {mobileOpen
@@ -84,7 +84,7 @@ export default function Navbar() {
 
       {/* ── Mobile Menu ── */}
       {mobileOpen && (
-        <div className="md:hidden px-6 pb-4 border-t border-black/5" style={{ background: 'rgba(255,255,255,0.98)' }}>
+        <div className="lg:hidden px-6 pb-4 border-t border-black/5" style={{ background: 'rgba(255,255,255,0.98)' }}>
           <div className="flex flex-col gap-1 pt-3">
             {NAV_LINKS.map(({ label, to }) => (
               <NavLink
