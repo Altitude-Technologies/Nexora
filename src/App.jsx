@@ -54,7 +54,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Nexora">
+    <BrowserRouter>
       <Layout />
     </BrowserRouter>
   )
