@@ -127,9 +127,8 @@ export default function TermsModal({ onClose }) {
           <Section title="12. Contact Information">
             <div className="space-y-1">
               <p className="font-semibold text-navy">Dextriva</p>
-              <p>📧 Email: <a href="mailto:your@email.com" className="text-brand hover:underline">your@email.com</a></p>
-              <p>📞 Phone: [your phone number]</p>
-              <p>📍 Address: [your address]</p>
+              <p>📧 Email: <a href="mailto:dextrivatech@gmail.com" className="text-brand hover:underline">dextrivatech@gmail.com</a></p>
+              <p>📞 Phone: <a href="tel:+919363920585" className="text-brand hover:underline">+91 93639 20585</a></p>
             </div>
           </Section>
 

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Phone, X, MessageCircle } from 'lucide-react'
 
-const PHONE = '917871379727'
-const PHONE_DISPLAY = '+91 78713 79727'
+const PHONE = '919363920585'
+const PHONE_DISPLAY = '+91 93639 20585'
 const WA_URL = `https://wa.me/${PHONE}?text=Hi%2C%20I%27m%20interested%20in%20your%20services!`
 const CALL_URL = `tel:+${PHONE}`
 

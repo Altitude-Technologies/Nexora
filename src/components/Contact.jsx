@@ -13,8 +13,8 @@ const SERVICES_OPTIONS = [
 ]
 
 const CONTACT_INFO = [
-  { icon: Phone,  label: 'Phone / WhatsApp', value: '+91 78713 79727',          href: 'tel:+917871379727'                        },
-  { icon: Mail,   label: 'Email',            value: 'nexora@gmail.com', href: 'mailto:nexora@gmail.com'         },
+  { icon: Phone,  label: 'Phone / WhatsApp', value: '+91 93639 20585',          href: 'tel:+919363920585'                        },
+  { icon: Mail,   label: 'Email',            value: 'dextrivatech@gmail.com', href: 'mailto:dextrivatech@gmail.com'         },
   { icon: MapPin, label: 'Location',         value: 'Remote-First · Worldwide',  href: null                                       },
 ]
 
