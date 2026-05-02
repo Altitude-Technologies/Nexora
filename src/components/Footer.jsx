@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLink, Link2, Code2 } from 'lucide-react'
-import nexoraLogo from '../assets/nexora.jpg'
+import nexoraLogo from '../assets/nexora.jpeg'
 import PrivacyModal from './PrivacyModal'
 import TermsModal from './TermsModal'
 

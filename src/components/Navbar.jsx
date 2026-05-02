@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Menu, X, ArrowRight } from 'lucide-react'
-import nexoraLogo from '../assets/nexora.jpg'
+import nexoraLogo from '../assets/nexora.jpeg'
 
 const NAV_LINKS = [
   { label: 'Services',        to: '/services'       },
